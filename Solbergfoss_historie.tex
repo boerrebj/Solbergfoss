@@ -1,0 +1,109 @@
+% !TeX spellcheck = nb_NB-NorwegianBokmal
+\documentclass[10pt,aspectratio=169]{beamer}
+\useinnertheme[shadow=true]{rounded}
+% Add extra packages here
+\usepackage[norsk]{babel}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{tabularx}
+\usepackage{svg}
+%\usepackage{enumitem} 
+\usepackage{comment}
+
+%\setsvg{inkscape = "C:/Program Files/Inkscape/inkscape.exe" -z -D}
+
+\graphicspath{{figs/}}
+% \usetheme{mc}
+%
+\title{Mørkfoss-Solbergfoss}
+\subtitle{En kritisk brikke i utviklingen av norsk vannkraftteknologi}
+\author{Bjarne B{\o}rresen}
+\date{8. sep 2026}
+%\titlegraphic{\includegraphics[width=0.2\textwidth]{ps_frontpage}}
+
+\begin{document}
+	%
+\begin{frame}
+	\titlepage
+\end{frame}
+%
+\begin{frame}
+\frametitle{Norsk vannkraftindustri før 1914}
+\begin{itemize}
+\item Balansere risiko og forutsigbarhet
+\item Lineær nedskriving over avtaleperioden (til 2050)
+\item Kretsen godtar modell med lineær nedskriving
+\item Fordel om de som kan betaler tidlig -- mindre ekstern finansiering
+\item Legger til grunn annuitet, fastrentelån fram til 2050
+\end{itemize}
+\end{frame}
+
+
+\begin{frame}
+\frametitle{Innbetalingsmodeller}
+%
+
+Foreslår fire ulike innbetalingsmodeller:
+%
+\begin{enumerate}[\Alph*]
+\item Betaler beløp \(M_{tot}\) år 0
+\item Betaler årlig beløp \(M_{anu}\)
+\item Fritak for innbetaling (maks \(n\) år), i påfølgende år innbetales
+\(M_{anu2}\) (1)
+\item Betaler beløp \(M_{tot}\) + \(M_{ekstra}\) i år 0 (2)
+\end{enumerate}
+
+\textbf{Noter:}\\ 
+{\small 
+\begin{enumerate}
+\item Årlig innbetaling av (deler av) rentekostnad 
+\item Ekstra innbetaling trekkes fra årsavgift i på følgende år
+\end{enumerate}
+}
+%
+\end{frame}
+
+
+\begin{frame}
+\frametitle{Annuitet, fastrentelån}
+
+Årlig innbetaling: 
+\[
+M_{anu}=C\cdot \frac{r(1+r)^{t}}{(1+r)^{t}-1}
+\] 
+hvor
+\begin{description}
+	\item[\(M_{anu}\):] Årlig terminbeløp (avdrag + renter)
+	\item[C:] Lånebeløp (kapital)
+	\item[r:] Årlig rentesats
+	\item[t:] Løpetid i antall år
+\end{description}
+%
+\begin{exampleblock}{Eksempel}
+ C= kr 200 000,-, r=6\%, t=23 å, A=kr 16 256,-
+ \end{exampleblock}
+ %
+\end{frame}
+
+\begin{frame}
+\frametitle{Ved eierskifte}
+%
+Ved salg av hytter:
+\begin{itemize}
+ \item parseller som har modell A eller D. Gjenstående summert verdi legges til takst
+ \item modell B årlig innbetaling $M_{anu}$ videreføres
+ \item modell C årlig innbetaling $M_{anu2}$ videreføres
+\end{itemize}
+%
+\begin{exampleblock}{Modell A og D}
+Løpetid på 23 år, salg etter 10 år, 13*$C_{anu}$ legges til kjøpesummen.
+\end{exampleblock}
+
+\textbf{Note:}\\ 
+{\small Kan vurdere å åpne opp for et kontantutkjøp ved B og C ved eierskifte}
+
+\end{frame}
+
+%  -----------------------------------------------------------------------------------------
+\end{document}
