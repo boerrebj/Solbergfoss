@@ -21,3 +21,12 @@
 # BibTeX
 *.bbl
 *.blg
+
+## Build directories (if using tools like latexrun or specialized editors)
+latex.out/
+build/
+out/
+
+## Optional: Ignore the final PDF output
+# Remove the '#' on the next line if you don't want to track your compiled PDF
+# *.pdf

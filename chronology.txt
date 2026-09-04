@@ -1,0 +1,14 @@
+
+\vspace{0.5cm} % Space between top columns and bottom block
+
+% Bottom wide block
+\begin{block}{Tidslinje}
+  \startchronology
+	\chronoevent{1885}{Laugstol Brug, Skien}
+	\chronoevent{1891}{Hammerfest}
+	\chronoevent{1892}{Oslo Elektrisitetsverk}
+	\chronoevent{1900}{Hammern kraftverk}
+	\chronoevent{1906}{"panikkloven"}
+	\chronoevent{1910}{NTH åpner}
+	\stopchronology
+\end{block}

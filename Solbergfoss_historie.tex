@@ -1,3 +1,4 @@
+
 % !TeX spellcheck = nb_NB-NorwegianBokmal
 \documentclass[10pt,aspectratio=169]{beamer}
 \useinnertheme[shadow=true]{rounded}
@@ -6,6 +7,8 @@
 \usepackage[T1]{fontenc}
 \usepackage{amsmath}
 \usepackage{graphicx}
+\usepackage{tikz}  
+\usepackage{chronosys}
 \usepackage{tabularx}
 \usepackage{svg}
 %\usepackage{enumitem} 
@@ -28,82 +31,54 @@
 	\titlepage
 \end{frame}
 %
-\begin{frame}
-\frametitle{Norsk vannkraftindustri før 1914}
-\begin{itemize}
-\item Balansere risiko og forutsigbarhet
-\item Lineær nedskriving over avtaleperioden (til 2050)
-\item Kretsen godtar modell med lineær nedskriving
-\item Fordel om de som kan betaler tidlig -- mindre ekstern finansiering
-\item Legger til grunn annuitet, fastrentelån fram til 2050
-\end{itemize}
+\begin{frame}{Mørkfoss-Solbergfoss}
+	\begin{columns}
+		% Left Column
+		\begin{column}{0.5\textwidth}
+			\textbf{Plan}
+			\begin{itemize}
+				\item Historisk bakgrunn
+				\item Aktiv industripolitikk
+				\item Resultatet
+			\end{itemize}
+		\end{column}
+		% Right Column
+		\begin{column}{0.5\textwidth}
+			\begin{center}
+				% Replace 'example-image' with your actual file name
+				\includegraphics[width=\textwidth]{Solbergfoss_stasjon}
+			\end{center}
+		\end{column}
+	\end{columns}
 \end{frame}
-
-
-\begin{frame}
-\frametitle{Innbetalingsmodeller}
 %
 
-Foreslår fire ulike innbetalingsmodeller:
+\begin{frame}{Norsk vannkraftindustri før 1914}
 %
-\begin{enumerate}[\Alph*]
-\item Betaler beløp \(M_{tot}\) år 0
-\item Betaler årlig beløp \(M_{anu}\)
-\item Fritak for innbetaling (maks \(n\) år), i påfølgende år innbetales
-\(M_{anu2}\) (1)
-\item Betaler beløp \(M_{tot}\) + \(M_{ekstra}\) i år 0 (2)
-\end{enumerate}
-
-\textbf{Noter:}\\ 
-{\small 
-\begin{enumerate}
-\item Årlig innbetaling av (deler av) rentekostnad 
-\item Ekstra innbetaling trekkes fra årsavgift i på følgende år
-\end{enumerate}
-}
-%
-\end{frame}
-
-
-\begin{frame}
-\frametitle{Annuitet, fastrentelån}
-
-Årlig innbetaling: 
-\[
-M_{anu}=C\cdot \frac{r(1+r)^{t}}{(1+r)^{t}-1}
-\] 
-hvor
-\begin{description}
-	\item[\(M_{anu}\):] Årlig terminbeløp (avdrag + renter)
-	\item[C:] Lånebeløp (kapital)
-	\item[r:] Årlig rentesats
-	\item[t:] Løpetid i antall år
-\end{description}
-%
-\begin{exampleblock}{Eksempel}
- C= kr 200 000,-, r=6\%, t=23 å, A=kr 16 256,-
- \end{exampleblock}
- %
-\end{frame}
-
-\begin{frame}
-\frametitle{Ved eierskifte}
-%
-Ved salg av hytter:
-\begin{itemize}
- \item parseller som har modell A eller D. Gjenstående summert verdi legges til takst
- \item modell B årlig innbetaling $M_{anu}$ videreføres
- \item modell C årlig innbetaling $M_{anu2}$ videreføres
-\end{itemize}
-%
-\begin{exampleblock}{Modell A og D}
-Løpetid på 23 år, salg etter 10 år, 13*$C_{anu}$ legges til kjøpesummen.
-\end{exampleblock}
-
-\textbf{Note:}\\ 
-{\small Kan vurdere å åpne opp for et kontantutkjøp ved B og C ved eierskifte}
+\begin{columns}
+	% Left Column
+	\begin{column}{0.5\textwidth}
+		\textbf{Store norske turbinleveranser}
+		\begin{tabular}{|c|c|c|c|} \hline
+			Årstall & Anlegg & Effekt & Leverandør \\ \hline
+			1900 & Hammeren &  6 x 420 kW & Myrens verksted  \\ \hline
+			1901 & Øvre Lerfoss & 2 x 700 kW & Kværner Brug \\ \hline
+		\end{tabular}
+	\end{column}
+	% Right Column
+	\begin{column}{0.5\textwidth}
+		\begin{center}
+			% Replace 'example-image' with your actual file name
+			\includegraphics[width=0.5\textwidth]{Fig10_Hammern_1900}
+		\end{center}
+	\end{column}
+\end{columns}
 
 \end{frame}
 
-%  -----------------------------------------------------------------------------------------
+%  
+\begin{frame}{Etablering av NTH}
+\end{frame}
+%
 \end{document}
+
