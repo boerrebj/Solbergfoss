@@ -8,3 +8,13 @@
 
 [Gunnar Knudsen](https://www.nb.no/items/ff6c7f107ff35363d151c2882dca036a)  
 [Avhandlinger til 25-årsjubileet 1935](https://www.nb.no/items/298fa2b00089ba5425422a77057158fe)  
+[Trondhjems elektrisitetsverk og Trondhjems sporvei : 1902-1927](https://www.nb.no/items/c354245710c9efd711360f2aa3d1f48b)
+[Norges tekniske høiskole : beretning om virksomheten 1910-1920](https://www.nb.no/items/75f1e161cbc122f0e1f1abe49ea7b68e)  
+[Fra kvernkall til kjempeturbin](https://www.nb.no/items/a6a760a14a7e7942dc967edcd07fb9f5)  
+[Kværnerbedriftenes teknologihistorie gjennom 150 år](https://www.nb.no/items/5f2627bea8b439744b74470526ba0ced)  
+[Avhandlinger til 25-årsjubileet 1935](https://www.nb.no/items/298fa2b00089ba5425422a77057158fe)  
+
+
+
+## Tools
+[Chronosys](https://ctan.uib.no/macros/latex/contrib/chronosys/docchronosys_en.pdf)
