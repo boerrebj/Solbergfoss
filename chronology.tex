@@ -1,24 +1,30 @@
-
 \documentclass{article}
 %\documentclass{standalone}
 \usepackage{amsmath}
 %\usepackage{chronology}
+\usepackage{graphicx}
+\usepackage{tikz} 
 \usepackage{chronosys}
 %\usepackage{amsfont}
 %
-\begin{document}
-% \vspace{0.5cm} % Space between top columns and bottom block
-
-% Bottom wide block
-%\begin{block}{Tidslinje}
-  \startchronology
-	\chronoevent{1885}{Laugstol Brug, Skien}
-	\chronoevent{1891}{Hammerfest}
-	\chronoevent{1892}{Oslo Elektrisitetsverk}
-	\chronoevent{1900}{Hammern kraftverk}
-	\chronoevent{1906}{"panikkloven"}
-	\chronoevent{1910}{NTH åpner}
-	\stopchronology
-%\end{block}
+\definecolor{HK_light_green}{RGB}{223,242,238} % HK_light_green
 %
+\begin{document}
+	% \vspace{0.5cm} % Space between top columns and bottom block
+	
+	
+	% Bottom wide block
+	%\begin{block}{Tidslinje}
+	\startchronology[startyear=1880,stopyear=1930,color=HK_light_green, height=1cm, align=left]
+	\chronoevent{1885}{\rotatebox{-60}{Laugstol Brug}}
+	%\chronoevent[year=false]{1891}{\rotatebox{-60}{Hammerfest}}
+	\chronoevent{1892}{\rotatebox{-60}{Oslo Elektrisitetsverk}}
+	\chronoevent{1900}{\rotatebox{-60}{Hammern kraftverk}}
+	\chronoevent{1906}{\rotatebox{-60}{Panikkloven}}
+	\chronoevent{1910}{\rotatebox{-60}{NTH åpner}}
+	\chronoevent{1917}{\rotatebox{-60}{Vannkraftlaboratoriet}}
+	\chronoevent{1924}{\rotatebox{-60}{Solbergfoss åpner}}
+	\stopchronology
+	%\end{block}
+	%
 \end{document}

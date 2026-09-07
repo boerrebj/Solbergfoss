@@ -8,14 +8,19 @@
 
 [Gunnar Knudsen](https://www.nb.no/items/ff6c7f107ff35363d151c2882dca036a)  
 [Avhandlinger til 25-årsjubileet 1935](https://www.nb.no/items/298fa2b00089ba5425422a77057158fe)  
-[Trondhjems elektrisitetsverk og Trondhjems sporvei : 1902-1927](https://www.nb.no/items/c354245710c9efd711360f2aa3d1f48b)
+[Trondhjems elektrisitetsverk og Trondhjems sporvei : 1902-1927](https://www.nb.no/items/c354245710c9efd711360f2aa3d1f48b)  
 [Norges tekniske høiskole : beretning om virksomheten 1910-1920](https://www.nb.no/items/75f1e161cbc122f0e1f1abe49ea7b68e)  
 [Fra kvernkall til kjempeturbin](https://www.nb.no/items/a6a760a14a7e7942dc967edcd07fb9f5)  
 [Kværnerbedriftenes teknologihistorie gjennom 150 år](https://www.nb.no/items/5f2627bea8b439744b74470526ba0ced)  
 [Avhandlinger til 25-årsjubileet 1935](https://www.nb.no/items/298fa2b00089ba5425422a77057158fe)  
 [Norske kraftverker. 1](https://www.nb.no/items/56a10a3c0cd3f3fd732440f536af896d)
+[Overingeniør Henrik Christie 1893-1968 : 100 års markering, 1893-1993](https://www.nb.no/items/e543cab67aca9915495c3d9f17578374) 
+[Historiske kraftlinjer : glimt fra Hafslund energi](https://www.nb.no/items/00077c5ec4703ec1210c6b9ec7e1571b)   
+[Vitenskap for industrien : NTH - en høyskole i utvikling gjennom 75 år](https://www.nb.no/items/916d5662b3d1d645e0c9d63513d3236c)  
 
 
+
+## Personer
 
 ## Tools
 [Chronosys](https://ctan.uib.no/macros/latex/contrib/chronosys/docchronosys_en.pdf)
